@@ -10,7 +10,7 @@ import java.util.Map;
  * @author yxm
  * @date 2020/3/14
  **/
-public class NonPatternApplication {
+public class NonPattern {
 
     public static void main(String[] args) {
         //1.不使用设计模式情况下遍历聚合类中数据

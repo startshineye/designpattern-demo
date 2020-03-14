@@ -4,7 +4,7 @@ package com.yxm.designpattern.adapter;
  * @author yexinming
  * @date 2020/3/15
  **/
-public class AdapterPatternApplication {
+public class AdapterPattern {
 
     public static void main(String[] args) {
         NewInterface oldInterface = new NewInterfaceAdapter(new OldInterfaceImpl());

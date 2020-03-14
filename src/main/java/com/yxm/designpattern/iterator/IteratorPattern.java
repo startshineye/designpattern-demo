@@ -7,7 +7,7 @@ import java.util.List;
  * @author yexinming
  * @date 2020/3/14
  **/
-public class IteratorPatternApplication {
+public class IteratorPattern {
     public static void main(String[] args) {
         //1.构建聚合类
         Student stu1 = new Student("张三");
