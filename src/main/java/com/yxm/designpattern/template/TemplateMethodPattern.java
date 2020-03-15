@@ -16,10 +16,12 @@ public class TemplateMethodPattern {
         calculatePrice3.calculate();
 
         //一旦我们修改通用逻辑时候,只需要修改通用类即可。
+        //我们这里的模板方法就是:public abstract void specificCalculate();他只是定义模块,具体实现是去子类完成
 
         //应该是最高频使用的设计模式，高频到了，我们都不用再这里举个什么例子了，
         // 因为在任何一个系统中，一定会出现说，多个类中都有相同的代码，
         // 此时就可以使用模板方法设计模式，将多个类中通用的逻辑抽取到一个父类中去
+
     }
 
 
