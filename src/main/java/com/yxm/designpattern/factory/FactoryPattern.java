@@ -1,5 +1,4 @@
 package com.yxm.designpattern.factory;
-
 /**
  * @author yexinming
  * @date 2020/3/15
@@ -18,7 +17,7 @@ public class FactoryPattern {
         // 但是此时Product实现类改了
         // 我们只要修改一个地方即可，就是ProductFacory中
 
-        //但是此时客户端调用一直没变味。面向接口编程。    
+        //但是此时客户端调用一直没变味。面向接口编程。
     }
 
 
